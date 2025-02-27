@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+    <title>Upload</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Site</h1>
         <nav class="navbar">
+            <a href="index.html">Home</a>
             <a href="pesquisa.html">Pesquisa</a>
-            <a href="upload.html">Upload</a>
             <a href="mural.html">Mural</a>
         </nav>
     </header>
-    <main>
-        <h2>Explore as funcionalidades do site!</h2>
-    </main>
+    <section>
+        <h2>Upload de Fotos e Vídeos</h2>
+        <input type="file" multiple>
+        <button>Enviar</button>
+        <div id="visualizacao"></div>
+    </section>
 </body>
 </html>
